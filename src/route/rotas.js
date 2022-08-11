@@ -18,23 +18,23 @@ export default function AppRoutes() {
           component={Inicio} 
           options={{headerShown: false}}/>
         <Stack.Screen  
-          name="center" 
+          name="Center" 
           component={Center} 
           options={{headerShown: false}}/>
         <Stack.Screen  
-          name="flex-start" 
+          name="FlexStart" 
           component={FlexStart} 
           options={{headerShown: false}}/>
         <Stack.Screen  
-          name="flex-end" 
+          name="FlexEnd" 
           component={FlexEnd} 
           options={{headerShown: false}}/>
         <Stack.Screen  
-        name="space-between" 
+        name="SpaceBetween" 
         component={SpaceBetween} 
         options={{headerShown: false}}/>
         <Stack.Screen  
-        name="space-around" 
+        name="SpaceAround" 
         component={SpaceAround} 
         options={{headerShown: false}}/>
     </Stack.Navigator>
